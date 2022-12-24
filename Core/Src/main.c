@@ -109,7 +109,7 @@ int main(void)
   SCH_Add_Task(do_blink2,10,100);
   SCH_Add_Task(do_blink3,15,150);
   SCH_Add_Task(do_blink4,20,200);
-  SCH_Add_Task(do_blink5,25,250);
+  SCH_Add_Task(do_blink5,250,0);
   /* USER CODE END 2 */
 
   /* Infinite loop */

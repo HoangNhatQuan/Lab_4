@@ -206,9 +206,9 @@ int main(void)
  80001f6:	2114      	movs	r1, #20
  80001f8:	4809      	ldr	r0, [pc, #36]	; (8000220 <main+0x68>)
  80001fa:	f000 f9e1 	bl	80005c0 <SCH_Add_Task>
-  SCH_Add_Task(do_blink5,25,250);
- 80001fe:	22fa      	movs	r2, #250	; 0xfa
- 8000200:	2119      	movs	r1, #25
+  SCH_Add_Task(do_blink5,250,0);
+ 80001fe:	2200      	movs	r2, #0
+ 8000200:	21fa      	movs	r1, #250	; 0xfa
  8000202:	4808      	ldr	r0, [pc, #32]	; (8000224 <main+0x6c>)
  8000204:	f000 f9dc 	bl	80005c0 <SCH_Add_Task>
 
